@@ -1,0 +1,323 @@
+
+@media (max-width: 575px) { 
+    .overlay{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100vw;
+        height: 100vh;
+        background: linear-gradient(0deg, #18191a8f 0%, #18191a 100%);
+        position: fixed;
+        top: 0;
+        left: 0;
+        transform: scale(0);
+        z-index: 999;
+        transition: scale 350ms ease-in-out;
+        cursor: pointer;
+    }
+    .overlay.visible{
+        transform: scale(1);
+    }
+    .overlay.visible::after{
+        content: "(Click anywhere to close)";
+        font-size: 15px;
+        font-weight: 500;
+        position: absolute;
+        color: rgb(255, 255, 255);
+        top: 10px;
+    }
+    
+    .overlay-img{
+        width: 80%;
+        aspect-ratio: 1.2 / 1;
+        border-radius: 5px;
+        transform: scale(0);
+        transition: scale 300ms ease-in;
+    }
+    .overlay-img.visible{
+        transform: scale(1);
+    }
+    .lightbox{
+        cursor: pointer;
+    }
+    
+    .lightbox-close{
+        background: none;
+        border: none;
+        position: absolute;
+        top: 0;
+        right: 0;
+        margin: 20px 20px 0 0;
+        cursor: pointer;
+    }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767px) { 
+    .overlay{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100vw;
+        height: 100vh;
+        background: linear-gradient(0deg, #18191a8f 0%, #18191a 100%);
+        position: fixed;
+        top: 0;
+        left: 0;
+        transform: scale(0);
+        z-index: 999;
+        transition: scale 350ms ease-in-out;
+        cursor: pointer;
+    }
+    .overlay.visible{
+        transform: scale(1);
+    }
+    .overlay.visible::after{
+        content: "(Click anywhere to close)";
+        font-size: 15px;
+        font-weight: 500;
+        position: absolute;
+        color: rgb(255, 255, 255);
+        top: 10px;
+    }
+    
+    .overlay-img{
+        width: 80%;
+        aspect-ratio: 1.2 / 1;
+        border-radius: 5px;
+        transform: scale(0);
+        transition: scale 300ms ease-in;
+    }
+    .overlay-img.visible{
+        transform: scale(1);
+    }
+    .lightbox{
+        cursor: pointer;
+    }
+    
+    .lightbox-close{
+        background: none;
+        border: none;
+        position: absolute;
+        top: 0;
+        right: 0;
+        margin: 20px 20px 0 0;
+        cursor: pointer;
+    }
+ }
+
+ /* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {  
+    .overlay{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100vw;
+        height: 100vh;
+        background: linear-gradient(0deg, #18191a8f 0%, #18191a 100%);
+        position: fixed;
+        top: 0;
+        left: 0;
+        transform: scale(0);
+        z-index: 999;
+        transition: scale 350ms ease-in-out;
+        cursor: pointer;
+    }
+    .overlay.visible{
+        transform: scale(1);
+    }
+    .overlay.visible::after{
+        content: "(Click anywhere to close)";
+        font-size: 15px;
+        font-weight: 500;
+        position: absolute;
+        color: rgb(255, 255, 255);
+        top: 10px;
+    }
+    
+    .overlay-img{
+        height: 50vh;
+        aspect-ratio: 1.2 / 1;
+        border-radius: 5px;
+        transform: scale(0);
+        transition: scale 300ms ease-in;
+    }
+    .overlay-img.visible{
+        transform: scale(1.5);
+    }
+    .lightbox{
+        cursor: pointer;
+    }
+    
+    .lightbox-close{
+        background: none;
+        border: none;
+        position: absolute;
+        top: 0;
+        right: 0;
+        margin: 20px 20px 0 0;
+        cursor: pointer;
+    }
+}
+
+ /* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+    .overlay{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100vw;
+        height: 100vh;
+        background: linear-gradient(0deg, #18191a8f 0%, #18191a 100%);
+        position: fixed;
+        top: 0;
+        left: 0;
+        transform: scale(0);
+        z-index: 999;
+        transition: scale 350ms ease-in-out;
+        cursor: pointer;
+    }
+    .overlay.visible{
+        transform: scale(1);
+    }
+    .overlay.visible::after{
+        content: "(Click anywhere to close)";
+        font-size: 15px;
+        font-weight: 500;
+        position: absolute;
+        color: rgb(255, 255, 255);
+        top: 10px;
+    }
+    
+    .overlay-img{
+        height: 50vh;
+        aspect-ratio: 1.2 / 1;
+        border-radius: 5px;
+        transform: scale(0);
+        transition: scale 300ms ease-in;
+    }
+    .overlay-img.visible{
+        transform: scale(1.5);
+    }
+    .lightbox{
+        cursor: pointer;
+    }
+    
+    .lightbox-close{
+        background: none;
+        border: none;
+        position: absolute;
+        top: 0;
+        right: 0;
+        margin: 20px 20px 0 0;
+        cursor: pointer;
+    }
+ }
+
+ /* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+    .overlay{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100vw;
+        height: 100vh;
+        background: linear-gradient(0deg, #18191a8f 0%, #18191a 100%);
+        position: fixed;
+        top: 0;
+        left: 0;
+        transform: scale(0);
+        z-index: 999;
+        transition: scale 350ms ease-in-out;
+        cursor: pointer;
+    }
+    .overlay.visible{
+        transform: scale(1);
+    }
+    .overlay.visible::after{
+        content: "(Click anywhere to close)";
+        font-size: 15px;
+        font-weight: 500;
+        position: absolute;
+        color: rgb(255, 255, 255);
+        top: 10px;
+    }
+    
+    .overlay-img{
+        height: 50vh;
+        aspect-ratio: 1.2 / 1;
+        border-radius: 5px;
+        transform: scale(0);
+        transition: scale 300ms ease-in;
+    }
+    .overlay-img.visible{
+        transform: scale(1.5);
+    }
+    .lightbox{
+        cursor: pointer;
+    }
+    
+    .lightbox-close{
+        background: none;
+        border: none;
+        position: absolute;
+        top: 0;
+        right: 0;
+        margin: 20px 20px 0 0;
+        cursor: pointer;
+    }
+}
+
+ /* XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {
+    .overlay{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100vw;
+        height: 100vh;
+        background: linear-gradient(0deg, #18191a8f 0%, #18191a 100%);
+        position: fixed;
+        top: 0;
+        left: 0;
+        transform: scale(0);
+        z-index: 999;
+        transition: scale 350ms ease-in-out;
+        cursor: pointer;
+    }
+    .overlay.visible{
+        transform: scale(1);
+    }
+    .overlay.visible::after{
+        content: "(Click anywhere to close)";
+        font-size: 15px;
+        font-weight: 500;
+        position: absolute;
+        color: rgb(255, 255, 255);
+        top: 10px;
+    }
+    
+    .overlay-img{
+        height: 50vh;
+        aspect-ratio: 1.2 / 1;
+        border-radius: 5px;
+        transform: scale(0);
+        transition: scale 300ms ease-in;
+    }
+    .overlay-img.visible{
+        transform: scale(1.5);
+    }
+    .lightbox{
+        cursor: pointer;
+    }
+    
+    .lightbox-close{
+        background: none;
+        border: none;
+        position: absolute;
+        top: 0;
+        right: 0;
+        margin: 20px 20px 0 0;
+        cursor: pointer;
+    }
+ }
