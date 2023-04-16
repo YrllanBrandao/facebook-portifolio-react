@@ -24,7 +24,7 @@ const Header = (props) =>{
                         </div>
 
                         <div className="button-area d-flex gap-1 align-items-center">
-                        <button className="btn bg-fb btn-header fs-6"> <Icon icon="ri:message-3-line" color="white" width="24" height="24"  onClick={()=> props.showMessage()} /> Message</button>
+                        <button className="btn bg-fb btn-header fs-6"  onClick={()=> props.showMessage()}> <Icon icon="ri:message-3-line" color="white" width="24" height="24"  /> Message</button>
                         <a href="./resume.pdf" className="btn btn-header bg-light link-black fs-6" download={true}><Icon icon="simple-line-icons:doc" color="#000000" width="24" height="24" /> Resume</a>
                     </div>
                     </div>
