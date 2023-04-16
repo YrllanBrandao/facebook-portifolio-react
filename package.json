@@ -1,6 +1,7 @@
 {
   "name": "portifolio",
   "version": "0.1.0",
+  "homepage: "./"
   "private": true,
   "proxy": "http://localhost:3000/" ,
   "dependencies": {
