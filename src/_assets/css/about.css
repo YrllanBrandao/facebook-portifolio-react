@@ -1,4 +1,12 @@
 
+.container-about{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    height: 60vh;
+    padding-top: 25px;
+}
 /* extra small devices */
 @media (max-width: 575px) { 
  /* ABOUT */

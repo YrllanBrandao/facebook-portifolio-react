@@ -1,5 +1,6 @@
 import React, {useState} from "react";
 import LightBox from "../../_assets/js/lightBox/lightBox";
+import Footer from "../post/columnLeft/footer";
 import Html from '../../_assets/img/certification/html5.png';
 import Cibersecurirty from '../../_assets/img/certification/cibersecurity_essencials.png'
 
@@ -15,6 +16,7 @@ const Certification = () =>{
 
     return (
       <>
+      <section className='certification-area cecontainer-fluid d-flex flex-column align-items-center gap-3 justify-content-center'></section>
         <div className="certification d-flex flex-column">
           <div className="certification-area p-1">
             <h1 className="title">Licenses and certification</h1>
@@ -37,6 +39,9 @@ const Certification = () =>{
             </div>
           </div>
         </div>
+
+        <Footer/>
+        <section/>
       </>
     );
 

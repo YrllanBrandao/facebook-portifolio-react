@@ -3,6 +3,7 @@ import profile  from '../_assets/img/profile.jpg';
 import buttonSwitch from "../_assets/js/buttonSwitch";
 
 import { Icon } from '@iconify/react';
+import { Link } from "react-router-dom";
 
 const Header = (props) =>{
 
@@ -32,8 +33,8 @@ const Header = (props) =>{
 
                     {/* section buttons*/}
                     <nav className="nav-section container-fluid d-flex gap-1 justify-content-start align-items-end align-self-end">
-                    <button className="btn-section active" data-target="post" onClick={buttonSwitch} >Post</button>
-                    <button className="btn-section" data-target="about" onClick={buttonSwitch} >About me</button>
+                    <Link to='/' className="btn-section active" data-target="post" onClick={buttonSwitch} >Post</Link>
+                    <Link to="/about" className="btn-section" data-target="about" onClick={buttonSwitch} >About me</Link>
                     
                     </nav>
                     

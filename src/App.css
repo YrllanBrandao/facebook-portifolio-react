@@ -47,12 +47,3 @@ a {
 }
 
 
-.views {
-    
-    display: none !important;
-    transition: all 300ms;
-}
-
-.views.active {
-    display: flex !important;
-}
