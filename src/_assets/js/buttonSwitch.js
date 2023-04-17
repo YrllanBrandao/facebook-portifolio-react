@@ -13,7 +13,6 @@ const buttonSwitch = (e) => {
       button.classList.remove("active");
     });
   };
-
   disableButtons();
   activeButton();
 

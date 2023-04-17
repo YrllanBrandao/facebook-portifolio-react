@@ -82,7 +82,7 @@ const About = () =>{
               </li>
               <li>
               <Icon icon="dashicons:admin-site-alt" color="#838589" width="30" height="30" />
-                  <div className='d-flex flex-column semi-gap'><a className='network-name' href='https://yrllanbrandao.me'> _yrllanbrandao_</a> <span className='social-network'>Portifolio</span></div>
+                  <div className='d-flex flex-column semi-gap'><a className='network-name' href='https://yrllanbrandao.me'> yrllanbrandao.me</a> <span className='social-network fs-7'>Portifolio</span></div>
               </li>
           </ul>
       </li>

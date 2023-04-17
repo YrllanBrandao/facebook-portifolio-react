@@ -167,9 +167,13 @@ a {
     text-decoration: none;
 
 }
-.link-underline {
-    text-decoration: underline;
+a.underline:hover{
+    text-decoration: underline !important;
 }
+.link-underline {
+    text-decoration: underline ;
+}
+
 /* extra small devices */
 @media (max-width: 575px) {}
 
