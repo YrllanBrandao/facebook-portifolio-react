@@ -6,7 +6,8 @@
 The app is still in construction, so it may not work as expected. If you find any bugs, please report them in the [issues](https://github.com/YrllanBrandao/facebook-portifolio-react/issues) section.
 ## Homepage
 
-![image](https://user-images.githubusercontent.com/77467410/232289807-04cc361b-7e2a-4b08-9957-d00a3134a775.png)
+![image](https://user-images.githubusercontent.com/77467410/232859888-15f8083b-780b-4880-9f5d-9ca9518f831e.png)
+
 
 ## About me
 ![image](https://user-images.githubusercontent.com/77467410/232290115-d484e243-b65b-49ba-81cd-40f95ddb89c3.png)
