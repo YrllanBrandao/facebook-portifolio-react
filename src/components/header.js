@@ -1,7 +1,5 @@
-import React, {useState} from "react";
+import React from "react";
 import profile  from '../_assets/img/profile.jpg';
-import buttonSwitch from "../_assets/js/buttonSwitch";
-
 import { Icon } from '@iconify/react';
 import { Link, useLocation} from "react-router-dom";
 

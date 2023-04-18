@@ -3,17 +3,20 @@
       {
         "date": "May - 2023",
         "text": "Animes streaming local \n Front-end: html, css, javascript vanilla, toastr, axios, jQuey e uma lib para icones .\n\n\n\nBack-end: Node.JS, Nodemailer, JWT, Multer, Bcrypt, Express, Express-Session, Docker (MySQL) e Sequelize\n\n\n\n\n\nCódigo fonte:\n\nhttps://lnkd.in/dSVtYdfF",
-        "src": "./video/myanimes.mp4"
+        "src": "./video/myanimes.mp4",
+        "thumb": "./thumb/myanimes.jpeg"
       },
       {
         "date": "October - 2022",
         "text": "Trivia - Multiplayer game in real-times:\nNode.js, express, sequelize, mySql e socket.io Front-end: Html, css, javaScript vanilla, Bootstrap, EJS e socket.io client Caso tenham interesse, o código stá disponível no meu repositório no gtihub: https://github.com/YrllanBrandao/trivia-game-multiplayer",
-        "src": "./video/trivia.mp4"
+        "src": "./video/trivia.mp4",
+        "thumb": "./thumb/trivia.png"
       },
       {
         "date": "September - 2022",
         "text": "Class Manager portal\nFront-end: html, css, javascript vanilla, bootstrap.\n\nAinda falta adicionar algumas funcionalidades, mas vou adicionando ao longo dos próximos dias.\n\nO projeto tá disponível no meu repositório no link a seguir:\nhttps://lnkd.in/d7i44pC4",
-        "src": "./video/classmanager.mp4"
+        "src": "./video/classmanager.mp4",
+        "thumb": "./thumb/classmanager.png"
       }
     ]
   }

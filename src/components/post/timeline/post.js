@@ -38,8 +38,9 @@ const GenPosts = () => {
                         {Format(JSON.stringify(post.text))}
                         <a className="link-post" target="_blank" href={getLink(JSON.stringify(post.text))}>{getLink(JSON.stringify(post.text))}</a>
                     </p>
-                    <video className="container-fluid post-video"  controls>
+                    <video className="container-fluid post-video"  controls poster={post.thumb}>
                         <source src={post.src} type="video/mp4" />
+                        
                     </video>
                 </div>
                 </div>
