@@ -5,7 +5,7 @@ const Main = () =>{
 
     return(
         <>
-        <main className='post d-flex gap-3  sticky-top views active' >
+        <main className='post d-flex gap-3  sticky-top views active border-danger' >
           <ColumnLeft/>
           <Timeline />
         </main>

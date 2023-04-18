@@ -1,10 +1,11 @@
-import React from 'react';
+import React, {useState} from 'react';
 import Certification from './certification';
 import { Icon } from '@iconify/react';
-
+import Message from '../message';
 
 const About = () =>{
         
+
     const hideLists = () => {
       const lists = document.querySelectorAll(".list");
 
@@ -43,6 +44,11 @@ const About = () =>{
     
 
     return(<>
+
+
+                      
+
+    {/* about */}
    <div className='container-about container-fluid'>
    <section className='container-fluid d-flex justify-content-start   about  views p-1' id='about' >
     
@@ -92,7 +98,7 @@ const About = () =>{
 
       
   </section>
-  
+      
   
       {/* videos */}
       <Certification/>

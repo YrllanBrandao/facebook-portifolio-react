@@ -1,27 +1,41 @@
-import React, {useState} from 'react';
+import React, {useState, crea, createContext} from 'react';
 import{ Routes, Route, Link} from 'react-router-dom';
 import { Icon } from '@iconify/react';
 import LigthBoxAction from './_assets/js/lightBox/lightBoxAction';
 import Header from './components/header';
-import Main from './components/post/main';
 import About from './components/about/index';
 import Home from './components/home';
+import Message from './components/message';
 import './App.css';
 
 
+export const SharedMessageState = createContext();
 function App() {
+  const [showMessage, setMessage] = useState(false);
 
-   
+  const showOrHide = (state) => {
+    setMessage(state);
+  };
+
   return (
     <>
-      <Header />
-
-      <main>
+     
+    <SharedMessageState.Provider value={{showMessage, showOrHide}}>
+    <Header />
+    <main>
       <Routes>
-      <Route path='/' Component={Home}/>
-      <Route path="/about" Component={About}/>
+      <Route path='/' element={< Home showMessage={showMessage} showOrHide={showOrHide}/>}/>
+      <Route path="/about" element={< About showMessage={showMessage} showOrHide={showOrHide}/>}/>
       </Routes>
+
+      {/* float button */}
+     {showMessage ? null : <button className='btn-float-message' onClick={() => showOrHide(true)}>
+    <Icon icon="entypo:new-message" color="#e4e6ea" width="24" height="24" /> </button>}
+    {showMessage ? <Message setMessage={showOrHide}/> : null}
+
       </main>
+    </SharedMessageState.Provider>
+    
     </>
   );
 }
