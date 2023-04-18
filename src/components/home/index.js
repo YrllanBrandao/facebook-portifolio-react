@@ -2,9 +2,8 @@ import React, {useState} from "react";
 import LigthBoxAction from "../../_assets/js/lightBox/lightBoxAction";
 import Main from "../post/main";
 import { Icon } from "@iconify/react";
-import Message from "../message";
 
-const Home = ({showMessage, setMessage}) =>{
+const Home = ({}) =>{
 
 
 
