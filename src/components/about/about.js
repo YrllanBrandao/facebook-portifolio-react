@@ -1,6 +1,7 @@
 import React, {useState} from 'react';
 import Certification from './certification';
 import { Icon } from '@iconify/react';
+import LigthBoxAction from '../../_assets/js/lightBox/lightBoxAction';
 import Message from '../message';
 
 const About = () =>{
@@ -100,7 +101,8 @@ const About = () =>{
   </section>
       
   
-      {/* videos */}
+      {/* Licenses and certification  */}
+      
       <Certification/>
       
   

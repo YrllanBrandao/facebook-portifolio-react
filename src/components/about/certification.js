@@ -1,5 +1,7 @@
 import React, {useState} from "react";
 import LightBox from "../../_assets/js/lightBox/lightBox";
+import LigthBoxAction from "../../_assets/js/lightBox/lightBoxAction";
+import { Icon } from "@iconify/react";
 import Footer from "../post/columnLeft/footer";
 import Html from '../../_assets/img/certification/html5.png';
 import Cibersecurirty from '../../_assets/img/certification/cibersecurity_essencials.png'
@@ -40,7 +42,11 @@ const Certification = () =>{
             </div>
           </div>
         </div>
-
+        <div className='overlay' onClick={LigthBoxAction}>
+                      <img src='' className='overlay-img' />
+                
+                      <button className='lightbox-close'><Icon icon="ion:close" color="#ededed" width="30" height="30" /></button>
+                    </div>
 
       </section>
        
