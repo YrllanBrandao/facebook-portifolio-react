@@ -30,7 +30,7 @@ const  Message =() =>
                             <label for="email">E-mail</label>
                         </div>
                         <div class="d-flex align-items-center"> 
-                            <input type="text" name="email" max="11" required="" class="form-control input-message" placeholder="Aa"/>
+                            <input type="text" name="text" max="11" required="" class="form-control input-message" placeholder="Aa"/>
                             <button type="submit" class=" btn-send ">
                             <Icon icon="ic:round-send" color="#0084ff" width="30" height="30" />
                             </button>

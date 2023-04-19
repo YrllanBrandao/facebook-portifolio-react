@@ -29,7 +29,7 @@ const Skills = () =>{
                 </a>
                  {/* Linux */}
                  <a className='skill-tag'>
-                 <Icon icon="skill-icons:linux-dark" color="#787979" width="24" height="24" /> Docker
+                 <Icon icon="skill-icons:linux-dark" color="#787979" width="24" height="24" /> Linux
                 </a>
             </div>
             <div className='col d-flex flex-column semi-gap'>

@@ -49,7 +49,7 @@ const About = () =>{
                       
 
     {/* about */}
-   <div className='container-about container-fluid'>
+   <div className='container-about container-fluid border-success'>
    <section className='container-fluid d-flex justify-content-start   about  views p-1' id='about' >
     
       
