@@ -16,11 +16,12 @@ const Certification = () =>{
 
     return (
       <>
-      <section className='certification-area cecontainer-fluid d-flex flex-column align-items-center gap-3 justify-content-center'></section>
-        <div className="certification d-flex flex-column">
-          <div className="certification-area p-1">
+      <section className='certification-area cecontainer-fluid d-flex flex-column align-items-center gap-3 justify-content-center'>
+
+      <div className="certification d-flex flex-column">
+          <div className="certification-area">
             <h1 className="title">Licenses and certification</h1>
-            <div className="container-fluid certification-list p-1 d-flex gap">
+            <div className="container-fluid certification-list  d-flex gap">
               <img
                 src={Html}
                 alt="HTML certification"
@@ -40,8 +41,12 @@ const Certification = () =>{
           </div>
         </div>
 
+
+      </section>
+       
+
         <Footer/>
-        <section/>
+       
       </>
     );
 

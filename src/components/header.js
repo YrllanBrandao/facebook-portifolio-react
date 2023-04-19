@@ -50,7 +50,7 @@ const Header = () =>{
         <header>
 
         <div className="header-main container-fluid d-flex flex-column align-items-center ">
-            <div className="cover">
+            <div className="cover" loading='lazy'>
 
             </div>
             <div className="container-fluid  d-flex flex-column align-items-center sub-header">

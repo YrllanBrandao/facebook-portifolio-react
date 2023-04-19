@@ -8,11 +8,11 @@
         color: #e4e6eb;
     }
     .certification {
-        display: none !important;
         background: #242526;
         border-radius: 10px;
         width: 100%;
         height: auto;
+        padding: 1rem;
     }
 
     .certification.active {
@@ -26,9 +26,7 @@
         cursor: pointer;
         transition: scale 300ms ease-in-out;
     }
-    .certification-area{
-        padding: 0 1rem;
-    }
+  
 }
 
 /* Small devices (landscape phones, 576px and up) */
@@ -38,16 +36,13 @@
         font-weight: 700;
         color: #e4e6eb;
     }
-    .certification-area{
-        padding: 0 1rem;
-    }
+ 
     .certification {
-        display: none !important;
         background: #242526;
         border-radius: 10px;
         width: 100%;
         height: auto;
-        
+        padding: 1rem;
     }
 
     .certification.active {
@@ -71,12 +66,12 @@
         color: #e4e6eb;
     }
     .certification {
-        display: none !important;
         background: #242526;
         border-radius: 10px;
         width: 100%;
         height: auto;
-        
+        /* border: 1px solid gold; */
+        padding: 1rem;
     }
 
     .certification.active {
@@ -84,7 +79,7 @@
     }
     .certification-area{
         width: 100%;
-        padding: 0 1rem;
+
     }
    
      .certification-item{
@@ -104,12 +99,11 @@
         color: #e4e6eb;
     }
     .certification {
-        display: none !important;
         background: #242526;
         border-radius: 10px;
-        width: 85%;
+        width: 100%;
         height: auto;
-        
+        padding: 1rem;
     }
 
     .certification.active {
@@ -133,15 +127,11 @@
         color: #e4e6eb;
     }
     .certification {
-        display: none !important;
         background: #242526;
         border-radius: 10px;
         width: 100%;
         height: auto;
-        
-    }
-    .certification-area{
-        padding: 0 1.5rem;
+        padding: 1rem;
     }
     .certification.active {
         display: flex !important;
@@ -166,12 +156,11 @@
         color: #e4e6eb;
     }
     .certification {
-        display: none !important;
         background: #242526;
         border-radius: 10px;
-        width: 65%;
+        width: 65.7%;
         height: auto;
-        
+        padding: 1rem;
     }
     
 

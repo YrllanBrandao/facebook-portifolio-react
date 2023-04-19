@@ -130,17 +130,7 @@ main.post{
             transition: all 300ms ease-in-out;
         }
     
-        /* sections */
-    
-        .views {
-    
-            display: none;
-            transition: all 300ms;
-        }
-    
-        .views.active {
-            display: flex;
-        }
+        
 }
 
 /* Small devices (landscape phones, 576px and up) */
@@ -268,17 +258,7 @@ main.post{
             transition: all 300ms ease-in-out;
         }
     
-        /* sections */
-    
-        .views {
-    
-            display: none;
-            transition: all 300ms;
-        }
-    
-        .views.active {
-            display: flex;
-        }
+        
  }
 
  /* Medium devices (tablets, 768px and up) */
@@ -409,17 +389,7 @@ main.post{
             transition: all 300ms ease-in-out;
         }
     
-        /* sections */
-    
-        .views {
-    
-            display: none;
-            transition: all 300ms;
-        }
-    
-        .views.active {
-            display: flex;
-        }
+        
 }
 
  /* Large devices (desktops, 992px and up) */
@@ -546,17 +516,7 @@ main.post{
             transition: all 300ms ease-in-out;
         }
     
-        /* sections */
-    
-        .views {
-    
-            display: none;
-            transition: all 300ms;
-        }
-    
-        .views.active {
-            display: flex;
-        }
+        
  }
 
  /* X-Large devices (large desktops, 1200px and up) */
@@ -683,17 +643,7 @@ main.post{
             transition: all 300ms ease-in-out;
         }
     
-        /* sections */
-    
-        .views {
-    
-            display: none;
-            transition: all 300ms;
-        }
-    
-        .views.active {
-            display: flex;
-        }
+        
    
 }
 
