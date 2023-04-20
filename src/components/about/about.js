@@ -56,7 +56,7 @@ const About = () =>{
       
    
     <div className='aboutList p-1'>
-     <a href='#about' className='container-fluid fs-6 link-about p-1'>About</a>
+     <a  className='container-fluid fs-6 link-about p-1'>About</a>
       <button className='btn-about active' onClick={showOverview}>Overview</button>
       <button className='btn-about ' onClick={showInfo}>Contact and Basic info</button>
 
@@ -64,9 +64,9 @@ const About = () =>{
       
   
       <ul className='d-flex flex-column p-1 list-overview list active'>
-      <li><Icon icon="uil:bag" color="#b0b3b8" width="30" height="30" /> Available</li>
-      <li><Icon icon="fa-solid:graduation-cap" color="#838589" width="30" height="30" /> Network Technologist</li>
-      <li><Icon icon="ion:home" color="#838589" width="30" height="30" /> Lives in <a href='https://www.portal.ap.gov.br/conheca/macapa' target='_blank' className='fw- link-white'>Macapá-Ap</a> </li>
+      <li><Icon icon="uil:bag"  width="30" height="30" /> Available</li>
+      <li><Icon icon="fa-solid:graduation-cap"  width="30" height="30" /> Network Technologist</li>
+      <li><Icon icon="ion:home" width="30" height="30" /> Lives in <a href='https://www.portal.ap.gov.br/conheca/macapa' target='_blank' className='fw- link-white'>Macapá-Ap</a> </li>
       </ul>
       <ul className='d-flex flex-column list-info list list p-1'>
       <li className=''>

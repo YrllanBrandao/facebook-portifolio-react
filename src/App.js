@@ -6,6 +6,7 @@ import Header from './components/header';
 import About from './components/about/index';
 import Home from './components/home';
 import Message from './components/message';
+import ThemeSwitch from './components/themeSwitch';
 import './App.css';
 
 
@@ -19,7 +20,7 @@ function App() {
 
   return (
     <>
-     
+     <ThemeSwitch/>
     <SharedMessageState.Provider value={{showMessage, showOrHide}}>
     <Header />
     <main>
@@ -30,7 +31,7 @@ function App() {
 
       {/* float button */}
      {showMessage ? null : <button className='btn-float-message' onClick={() => showOrHide(true)}>
-    <Icon icon="entypo:new-message" color="#e4e6ea" width="24" height="24" /> </button>}
+    <Icon icon="entypo:new-message"  width="24" height="24" /> </button>}
     {showMessage ? <Message setMessage={showOrHide}/> : null}
 
       </main>

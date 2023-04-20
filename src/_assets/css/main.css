@@ -44,13 +44,10 @@ main.post{
             gap: 4px;
             width: 100%;
             border-radius: 15px;
-            border: 1px solid #343536;
             position: relative;
         }
     
-        .skill-tag:hover {
-            background: #343536;
-        }
+       
     
         .area-skill {
             display: flex;
@@ -82,7 +79,7 @@ main.post{
             height: 200px;
             object-fit: cover;
             position: relative;
-            border-radius: 5px;
+            border-radius: 5px 5px 0 0;
     
         }
     
@@ -172,13 +169,10 @@ main.post{
             gap: 4px;
             width: 100%;
             border-radius: 15px;
-            border: 1px solid #343536;
             position: relative;
         }
     
-        .skill-tag:hover {
-            background: #343536;
-        }
+       
     
         .area-skill {
             display: flex;
@@ -210,7 +204,7 @@ main.post{
             height: 200px;
             object-fit: cover;
             position: relative;
-            border-radius: 5px;
+            border-radius: 5px 5px 0 0;
     
         }
     
@@ -303,13 +297,10 @@ main.post{
             gap: 4px;
             width: 100%;
             border-radius: 15px;
-            border: 1px solid #343536;
             position: relative;
         }
     
-        .skill-tag:hover {
-            background: #343536;
-        }
+       
     
         .area-skill {
             display: flex;
@@ -341,7 +332,7 @@ main.post{
             height: 200px;
             object-fit: cover;
             position: relative;
-            border-radius: 5px;
+            border-radius: 5px 5px 0 0;
     
         }
     
@@ -430,13 +421,10 @@ main.post{
             gap: 4px;
             width: 100%;
             border-radius: 15px;
-            border: 1px solid #343536;
             position: relative;
         }
     
-        .skill-tag:hover {
-            background: #343536;
-        }
+       
     
         .area-skill {
             display: flex;
@@ -468,7 +456,7 @@ main.post{
             height: 200px;
             object-fit: cover;
             position: relative;
-            border-radius: 5px;
+            border-radius: 5px 5px 0 0;
     
         }
     
@@ -557,13 +545,10 @@ main.post{
             gap: 4px;
             width: 100%;
             border-radius: 15px;
-            border: 1px solid #343536;
             position: relative;
         }
     
-        .skill-tag:hover {
-            background: #343536;
-        }
+       
     
         .area-skill {
             display: flex;
@@ -595,7 +580,7 @@ main.post{
             height: 200px;
             object-fit: cover;
             position: relative;
-            border-radius: 5px;
+            border-radius: 5px 5px 0 0;
     
         }
     
@@ -658,6 +643,7 @@ main.post{
         flex-direction: row;
         justify-content: center;
         background: none;
+        box-shadow: none;
         /* padding: 0 14rem; */
    
        }
@@ -666,14 +652,21 @@ main.post{
     
         }
         .column-left {
-            background: #242526;
+            background: var(--header-color);
             border-radius: 10px;
             width: 40% !important;
             height: 830px;
             gap: 10px;
             position: sticky !important;
+            box-shadow: var(--main-elements-shadow);
+            color: var(--intro-text);
         }
-     
+        .column-left p{
+            color: var(--intro-text);
+        }
+        .column-left h2{
+            color: var(--intro-title);
+        }
     
         .skill-tag {
             
@@ -687,13 +680,10 @@ main.post{
             gap: 4px;
             width: 100%;
             border-radius: 15px;
-            border: 1px solid #343536;
             position: relative;
         }
     
-        .skill-tag:hover {
-            background: #343536;
-        }
+       
     
         .area-skill {
             display: flex;
@@ -725,7 +715,7 @@ main.post{
             height: 200px;
             object-fit: cover;
             position: relative;
-            border-radius: 5px;
+            border-radius: 5px 5px 0 0;
     
         }
     
@@ -778,3 +768,18 @@ main.post{
        
    
  }
+ .project-thumb{
+    box-shadow: var(--project-thumb-shadow);
+ }
+ .skill-tag{
+    background: var(--skill-tag-bg);
+    color: var(--skill-tag-text);
+    border: 1px solid var(--skill-tag-border) !important;
+ }
+ .skill-tag:hover {
+    background: var(--skill-tag-hover);
+}
+
+.column-left p{
+    border-bottom: 1px solid var(--border-bottom);
+}

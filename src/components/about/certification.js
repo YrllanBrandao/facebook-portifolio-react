@@ -21,7 +21,7 @@ const Certification = () =>{
       <section className='certification-area cecontainer-fluid d-flex flex-column align-items-center gap-3 justify-content-center'>
 
       <div className="certification d-flex flex-column">
-          <div className="certification-area">
+          <div className="certification-area d-flex flex-column gap">
             <h1 className="title">Licenses and certification</h1>
             <div className="container-fluid certification-list  d-flex gap">
               <img

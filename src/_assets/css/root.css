@@ -6,7 +6,43 @@
     /* colors */
     --color-theme: #4E31AA;
     --color-theme-secondary: #3A1078;
-    --body-dark-color: #18191a;
+    --body-color: #18191a;
+    --header-color: #242526;
+    --border-bottom: #ccced2;
+    --border-image-profile: #242526;
+    --profile-name-color: #050505;
+    --post-text-color: #050505;
+    --post-date-color: #85878a,
+    --intro-text: #0c0c0c;
+    --intro-title: #dddfe4;
+
+    /* about */
+    --about-title: #dfffff;
+    --about-button-text: #dfffff;
+    --about-button-active-text: #dfffff;
+    --about-button-bg-active-hover: #dfffff;
+    --about-info-text: #7c828b;
+    /* buttons bg */
+    --btn-resume-bg: #e4e6eb;
+    --btn-resume-bg-hover: #e4e6eb;
+    --btn-resume-text: #3a3b3c;
+    --btn-section-hover: #e4e6eb;
+    /* box shadows */
+    --header-shadow: 0 1px 1px #2425261c;
+    --main-elements-shadow: 0 0 1px #2425268c;
+    --project-thumb-shadow: 0 0 1px black;
+    --button-message-float-shadow: 0 0 2px black;
+    --input-shadow: 0 0 2px black;
+    /* links */
+    --link-color: #3079dd;
+
+    /* form message */
+    --form-control-bg: #3a3b3c;
+    --form-control-placeholder: #3a3b3c;
+    --form-message-bg: #3a3b3c;
+    --form-message-text: #a9af9c;
+    --pseudo-element-bg: "#fff";
+    --pseudo-element-text: "#fff";
 }
 
 

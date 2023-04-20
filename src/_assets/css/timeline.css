@@ -32,7 +32,7 @@
         position: absolute;
         bottom: 0;
     }
-    .post-name{
+    .post-profile-name{
         font-size: 15px;
         font-weight: 600;
         color: #e4e6eb;
@@ -98,7 +98,7 @@
         position: absolute;
         bottom: 0;
     }
-    .post-name{
+    .post-profile-name{
         font-size: 15px;
         font-weight: 600;
         color: #e4e6eb;
@@ -161,7 +161,7 @@
         position: absolute;
         bottom: 0;
     }
-    .post-name{
+    .post-profile-name{
         font-size: 15px;
         font-weight: 600;
         color: #e4e6eb;
@@ -225,7 +225,7 @@
         position: absolute;
         bottom: 0;
     }
-    .post-name{
+    .post-profile-name{
         font-size: 15px;
         font-weight: 600;
         color: #e4e6eb;
@@ -288,7 +288,7 @@
         position: absolute;
         bottom: 0;
     }
-    .post-name{
+    .post-profile-name{
         font-size: 15px;
         font-weight: 600;
         color: #e4e6eb;
@@ -329,7 +329,9 @@
     }
     
     .post{
-        background: #242526;
+        background: var(--header-color);
+        box-shadow: var(--main-elements-shadow);
+        
         border-radius: 10px;
     }
     .post-picture{
@@ -351,22 +353,22 @@
         position: absolute;
         bottom: 0;
     }
-    .post-name{
+    .post-profile-name{
         font-size: 15px;
         font-weight: 600;
-        color: #e4e6eb;
+        color: var(--profile-name-color);
     }
     .post-date{
         font-size: 13px;
         font-weight: 600;
-        color: #b0b3b8;
+        color: var(--post-date-color);
     }
     
     .post-text{
         font-size: 15px;
         font-weight: 400px;
         line-height: 20px;
-        color: #e4e6eb;
+        color: var(--post-text-color);
         text-align: left;
     }
     
@@ -375,7 +377,7 @@
         height: 400px;
     }
     .link-post{
-        color: #4599FF !important;
+        color: var(--link-color) !important;
     }
     .link-post:hover{
         text-decoration: underline;

@@ -11,7 +11,7 @@ const  Message =() =>
         return(<>
             <form action="https://formsubmit.co/yrllanbrandao@outlook.com" class="message-form form-control bg-dark-2  d-flex flex-column gap-2" method="post">
                     <div className='d-flex container-fluid justify-content-between form-top align-item-center'>
-                      New Message
+                      <h1 className="fs-6 form-title">New Message</h1>
                     <a className='btn-close-box' onClick={() => showOrHide(false)}>
                         <Icon icon="ic:round-close" color="#2e89ff" width="24" height="24"  />
                         </a>

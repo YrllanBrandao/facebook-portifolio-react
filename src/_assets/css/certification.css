@@ -4,11 +4,10 @@
 
     .title{
         font-size: 20px;
-        font-weight: 700;
-        color: #e4e6eb;
+        font-weight: 700
     }
     .certification {
-        background: #242526;
+        
         border-radius: 10px;
         width: 100%;
         height: auto;
@@ -34,11 +33,10 @@
     .title{
         font-size: 20px;
         font-weight: 700;
-        color: #e4e6eb;
     }
  
     .certification {
-        background: #242526;
+        
         border-radius: 10px;
         width: 100%;
         height: auto;
@@ -63,10 +61,9 @@
     .title{
         font-size: 20px;
         font-weight: 700;
-        color: #e4e6eb;
     }
     .certification {
-        background: #242526;
+        
         border-radius: 10px;
         width: 100%;
         height: auto;
@@ -96,10 +93,9 @@
     .title{
         font-size: 20px;
         font-weight: 700;
-        color: #e4e6eb;
     }
     .certification {
-        background: #242526;
+        
         border-radius: 10px;
         width: 100%;
         height: auto;
@@ -124,10 +120,9 @@
     .title{
         font-size: 20px;
         font-weight: 700;
-        color: #e4e6eb;
     }
     .certification {
-        background: #242526;
+        
         border-radius: 10px;
         width: 100%;
         height: auto;
@@ -153,10 +148,9 @@
     .title{
         font-size: 20px;
         font-weight: 700;
-        color: #e4e6eb;
     }
     .certification {
-        background: #242526;
+        
         border-radius: 10px;
         width: 65.7%;
         height: auto;
@@ -175,4 +169,18 @@
         cursor: pointer;
         transition: scale 300ms ease-in-out;
     }
+ }
+
+
+ /* theme colors */
+ .certification{
+    background: var(--header-color);
+    box-shadow: var(--main-elements-shadow);
+ }
+ .title{
+    color: var(--about-title);
+ }
+
+ .certification-item{
+    box-shadow: var(--main-elements-shadow);
  }

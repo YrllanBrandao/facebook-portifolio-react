@@ -1,5 +1,13 @@
 
-
+.btn-float-message{
+    background: var(--button-message-float);
+    color: var(--button-message-float-text);
+    box-shadow: var(--button-message-float-shadow) !important;
+}
+.btn-float-message:hover {
+    background:var(--button-message-float-hover);
+    transition: all 300ms ease-in-out;
+}
 
 /* extra small devices */
 @media (max-width: 575px) { 
@@ -7,7 +15,6 @@
         width: 50px;
         height: 50px;
         border-radius: 50%;
-        background: #4b4c4f;
         border: none;
         position: fixed;
         right: 0;
@@ -25,10 +32,7 @@
         z-index: 100;
     }
     
-    .btn-float-message:hover {
-        background: #707174;
-        transition: all 300ms ease-in-out;
-    }
+    
     
     .btn-float-message:hover::after {
         content: "New Message";
@@ -51,7 +55,6 @@
         padding: 14px;
         height: auto;
         position: fixed !important;
-        background: #242526;
         box-shadow: 0 0 3px #0d0d0e;
         border-radius: 5px;
         bottom: 0;
@@ -102,9 +105,6 @@
         color: #e3e6eb;
     }
     
-    input.form-control:focus, textarea.form-control:focus {
-        box-shadow: 0 0 6px #2c61acda;
-    }
     
     .form-floating {
         box-sizing: border-box;
@@ -240,7 +240,6 @@
         width: 50px;
         height: 50px;
         border-radius: 50%;
-        background: #4b4c4f;
         border: none;
         position: fixed;
         right: 0;
@@ -269,7 +268,6 @@
         padding: 10px;
         border-radius: 5px;
         position: absolute;
-        background: #ffffff;
         white-space: nowrap;
         transform: translateX(-80%);
     
@@ -282,7 +280,6 @@
         padding: 14px;
         height: auto;
         position: fixed !important;
-        background: #242526;
         box-shadow: 0 0 3px #0d0d0e;
         border-radius: 5px;
         bottom: 0;
@@ -334,9 +331,6 @@
         color: #e3e6eb;
     }
     
-    input.form-control:focus, textarea.form-control:focus {
-        box-shadow: 0 0 6px #2c61acda;
-    }
     
     .form-floating {
         box-sizing: border-box;
@@ -472,7 +466,6 @@
         width: 50px;
         height: 50px;
         border-radius: 50%;
-        background: #4b4c4f;
         border: none;
         position: fixed;
         right: 0;
@@ -501,7 +494,6 @@
         padding: 10px;
         border-radius: 5px;
         position: absolute;
-        background: #ffffff;
         white-space: nowrap;
         transform: translateX(-80%);
     
@@ -514,7 +506,6 @@
         padding: 14px;
         height: auto;
         position: fixed !important;
-        background: #242526;
         box-shadow: 0 0 3px #0d0d0e;
         border-radius: 5px;
         bottom: 0;
@@ -566,9 +557,6 @@
         color: #e3e6eb;
     }
     
-    input.form-control:focus, textarea.form-control:focus {
-        box-shadow: 0 0 6px #2c61acda;
-    }
     
     .form-floating {
         box-sizing: border-box;
@@ -714,7 +702,6 @@
         width: 50px;
         height: 50px;
         border-radius: 50%;
-        background: #4b4c4f;
         border: none;
         position: fixed;
         right: 0;
@@ -743,7 +730,6 @@
         padding: 10px;
         border-radius: 5px;
         position: absolute;
-        background: #ffffff;
         white-space: nowrap;
         transform: translateX(-80%);
     
@@ -756,7 +742,6 @@
         padding: 14px;
         height: auto;
         position: fixed !important;
-        background: #242526;
         box-shadow: 0 0 3px #0d0d0e;
         border-radius: 5px;
         bottom: 0;
@@ -788,7 +773,7 @@
         width: 100%;
         border-radius: 5px;
         outline: none;
-        background: #3a3b3c;
+
         color: #e3e6eb;
         border: none;
         cursor: pointer;
@@ -804,13 +789,10 @@
         width: 100%;
         padding: 1rem;
         cursor: pointer;
-        background: #3a3b3c;
+
         color: #e3e6eb;
     }
     
-    input.form-control:focus, textarea.form-control:focus {
-        box-shadow: 0 0 6px #2c61acda;
-    }
     
     .form-floating {
         box-sizing: border-box;
@@ -838,7 +820,6 @@
         width: 100%;
         outline: none;
         resize: none;
-        background: #3a3b3c;
         color: #e3e6eb;
         height: 15px;
         font-size: 15px;
@@ -855,7 +836,6 @@
     .chat-input {
         display: flex;
         align-items: center;
-        background-color: #3a3b3c;
         border-radius: 25px;
         box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
         height: auto;
@@ -865,10 +845,6 @@
         box-shadow: none !important;
     }
     
-    .input-message::placeholder {
-        color: #8b8e92;
-    
-    }
     
     .form-control:focus~label {
         font-size: 12px;
@@ -939,3 +915,43 @@
         top: -120%;
     }
  }
+
+
+
+
+ /* theme colors */
+
+ .message-form{
+    background:var(--form-message-bg);
+    color: var(--form-message-text) !important;
+    ;
+ }
+
+ 
+input.form-control{
+    color: var(--form-message-text);
+    background: var(--form-control-bg);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0.342);
+ }
+ input.form-control::placeholder{
+    color: var(--form-control-placeholder);
+ }
+ 
+ input.form-control:focus, textarea.form-control:focus {
+    box-shadow:var(--input-shadow);
+}
+
+.input-message::placeholder, .form-control ~ label {
+    color: var(--form-control-placeholder);
+
+}
+
+.form-title{
+    color: var(--form-message-text);
+}
+
+.btn-float-message:hover::after {
+
+    background: var(--pseudo-element-bg);
+    color:  var(--pseudo-element-text);
+}

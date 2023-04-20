@@ -27,7 +27,7 @@ const GenPosts = () => {
                 <div className="d-flex container-fluid semi-gap pt-1 px-1">
                 <img src={profile} alt="profile picture" className="post-picture"/>
                 <div className="d-flex flex-column">
-                <h2 className="post-name">Yrlan Brandão</h2>
+                <h2 className="post-profile-name">Yrlan Brandão</h2>
                 <h3 className="post-date">{post.date}</h3>
                 </div>
                 </div>

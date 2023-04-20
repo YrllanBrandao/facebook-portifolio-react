@@ -1,4 +1,20 @@
 
+/* theme colors */
+.btn-resume{
+    background: var(--btn-resume-bg);
+    color: var(--btn-resume-text);
+}
+.btn-resume:hover{
+    background: var(--btn-resume-bg-hover);
+}
+.btn-resume Icon {
+    color: var(--btn-resume-text) !important;
+   
+}
+
+.btn-section:hover{
+    background: var(--btn-section-hover);
+}
 /* xextra small devices */
 @media (max-width:400px) { 
     .btn-section{
@@ -482,7 +498,7 @@
     }
     .text-name{
         font-size: 32px;
-        color: #e4e6eb;
+        color: var(--profile-name-color);
         font-weight: 7000;
         font-family: Helvetica, Arial, sans-serif;
     }
@@ -490,9 +506,10 @@
         width: 100%;
         max-width: 100vw;
         height: 60vh;
-        background: #242526;
+        background: var(--header-color);
         position: relative;
        /* padding: 0 1rem; */
+       box-shadow: var(--header-shadow);
     }
     .header-main{
         height: 100%;
@@ -513,7 +530,7 @@
     .picture-area{
         width: 92%;
         height: 65%;
-        border-bottom: 1px solid #3e3f41;
+        border-bottom: 1px solid var(--border-bottom);
     }
     .picture-area div{
         height: 100%;
@@ -522,7 +539,7 @@
         height: 168px;
         aspect-ratio: 1 / 1;
         border-radius: 50%;
-        border: 5px solid #242526;
+        border: 5px solid var(--border-image-profile);
         transform: translateY(-50%);
         object-fit:cover;
     }
@@ -535,3 +552,4 @@
         width: 40%;
     }
  }
+
