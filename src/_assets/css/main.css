@@ -652,21 +652,13 @@ main.post{
     
         }
         .column-left {
-            background: var(--header-color);
             border-radius: 10px;
             width: 40% !important;
             height: 830px;
             gap: 10px;
             position: sticky !important;
-            box-shadow: var(--main-elements-shadow);
-            color: var(--intro-text);
         }
-        .column-left p{
-            color: var(--intro-text);
-        }
-        .column-left h2{
-            color: var(--intro-title);
-        }
+        
     
         .skill-tag {
             
@@ -768,6 +760,9 @@ main.post{
        
    
  }
+
+
+ /* theme colors */
  .project-thumb{
     box-shadow: var(--project-thumb-shadow);
  }
@@ -779,7 +774,15 @@ main.post{
  .skill-tag:hover {
     background: var(--skill-tag-hover);
 }
-
+.column-left {
+    background: var(--header-color);
+    box-shadow: var(--main-elements-shadow);
+    color: var(--intro-text);
+}
 .column-left p{
     border-bottom: 1px solid var(--border-bottom);
+    color: var(--intro-text);
+}
+.column-left h2{
+    color: var(--intro-title);
 }

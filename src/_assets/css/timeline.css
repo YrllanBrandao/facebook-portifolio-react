@@ -10,7 +10,7 @@
     }
     
     .post{
-        background: #242526;
+       
         border-radius: 10px;
     }
     .post-picture{
@@ -35,19 +35,16 @@
     .post-profile-name{
         font-size: 15px;
         font-weight: 600;
-        color: #e4e6eb;
     }
     .post-date{
         font-size: 13px;
         font-weight: 600;
-        color: #b0b3b8;
     }
     
     .post-text{
         font-size: 15px;
         font-weight: 400px;
         line-height: 20px;
-        color: #e4e6eb;
         text-align: left;
     }
     .post-body{
@@ -76,7 +73,7 @@
     }
     
     .post{
-        background: #242526;
+       
         border-radius: 10px;
     }
     .post-picture{
@@ -101,19 +98,16 @@
     .post-profile-name{
         font-size: 15px;
         font-weight: 600;
-        color: #e4e6eb;
     }
     .post-date{
         font-size: 13px;
         font-weight: 600;
-        color: #b0b3b8;
     }
     
     .post-text{
         font-size: 15px;
         font-weight: 400px;
         line-height: 20px;
-        color: #e4e6eb;
         text-align: left;
     }
     
@@ -139,7 +133,7 @@
     }
     
     .post{
-        background: #242526;
+       
         border-radius: 10px;
     }
     .post-picture{
@@ -164,7 +158,6 @@
     .post-profile-name{
         font-size: 15px;
         font-weight: 600;
-        color: #e4e6eb;
     }
     .post-date{
         font-size: 13px;
@@ -176,7 +169,6 @@
         font-size: 15px;
         font-weight: 400px;
         line-height: 20px;
-        color: #e4e6eb;
         text-align: left;
     }
     
@@ -203,7 +195,7 @@
     }
     
     .post{
-        background: #242526;
+       
         border-radius: 10px;
     }
     .post-picture{
@@ -228,19 +220,16 @@
     .post-profile-name{
         font-size: 15px;
         font-weight: 600;
-        color: #e4e6eb;
     }
     .post-date{
         font-size: 13px;
         font-weight: 600;
-        color: #b0b3b8;
     }
     
     .post-text{
         font-size: 15px;
         font-weight: 400px;
         line-height: 20px;
-        color: #e4e6eb;
         text-align: left;
     }
     
@@ -266,7 +255,7 @@
     }
     
     .post{
-        background: #242526;
+       
         border-radius: 10px;
     }
     .post-picture{
@@ -291,19 +280,18 @@
     .post-profile-name{
         font-size: 15px;
         font-weight: 600;
-        color: #e4e6eb;
+    
     }
     .post-date{
         font-size: 13px;
         font-weight: 600;
-        color: #b0b3b8;
+      
     }
     
     .post-text{
         font-size: 15px;
         font-weight: 400px;
         line-height: 20px;
-        color: #e4e6eb;
         text-align: left;
     }
     
@@ -329,8 +317,7 @@
     }
     
     .post{
-        background: var(--header-color);
-        box-shadow: var(--main-elements-shadow);
+      
         
         border-radius: 10px;
     }
@@ -356,19 +343,19 @@
     .post-profile-name{
         font-size: 15px;
         font-weight: 600;
-        color: var(--profile-name-color);
+        
     }
     .post-date{
         font-size: 13px;
         font-weight: 600;
-        color: var(--post-date-color);
+        
     }
     
     .post-text{
         font-size: 15px;
         font-weight: 400px;
         line-height: 20px;
-        color: var(--post-text-color);
+        
         text-align: left;
     }
     
@@ -376,10 +363,28 @@
         object-fit: cover;
         height: 400px;
     }
-    .link-post{
-        color: var(--link-color) !important;
-    }
+    
     .link-post:hover{
         text-decoration: underline;
     }
  }
+
+
+ /* theme color */
+ .post{
+    background: var(--header-color);
+    box-shadow: var(--main-elements-shadow);
+ }
+ .link-post{
+    color: var(--link-color) !important;
+}
+ .post-text{
+    color: var(--post-text-color);
+ }
+
+ .post-date{
+    color: var(--post-date-color);
+ }
+.post-profile-name{
+    color: var(--profile-name-color);
+}
