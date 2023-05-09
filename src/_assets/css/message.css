@@ -106,7 +106,7 @@
     }
     
     
-    .form-floating {
+    /* .form-floating {
         box-sizing: border-box;
         display: flex;
         align-items: center;
@@ -125,7 +125,7 @@
         cursor: pointer;
         transition: all 300ms ease-in;
     }
-    
+     */
     .input-message {
         border-radius: 20px !important;
         overflow-wrap: break-word !important;
@@ -163,15 +163,7 @@
         color: #8b8e92;
     
     }
-    
-    .form-control:focus~label {
-        font-size: 12px;
-        top: 3px;
-        left: 5px;
-        /* margin-left: .5rem; */
-        /* color: #242526; */
-        font-weight: 600;
-    }
+
     
     .btn-send {
         width: 32px;
@@ -332,7 +324,7 @@
     }
     
     
-    .form-floating {
+    /* .form-floating {
         box-sizing: border-box;
         display: flex;
         align-items: center;
@@ -351,7 +343,7 @@
         cursor: pointer;
         transition: all 300ms ease-in;
     }
-    
+     */
     .input-message {
         border-radius: 20px !important;
         overflow-wrap: break-word !important;
@@ -389,15 +381,7 @@
         color: #8b8e92;
     
     }
-    
-    .form-control:focus~label {
-        font-size: 12px;
-        top: 3px;
-        left: 5px;
-        /* margin-left: .5rem; */
-        /* color: #242526; */
-        font-weight: 600;
-    }
+
     
     .btn-send {
         width: 32px;
@@ -558,7 +542,7 @@
     }
     
     
-    .form-floating {
+    /* .form-floating {
         box-sizing: border-box;
         display: flex;
         align-items: center;
@@ -577,7 +561,7 @@
         cursor: pointer;
         transition: all 300ms ease-in;
     }
-    
+     */
     .input-message {
         border-radius: 20px !important;
         overflow-wrap: break-word !important;
@@ -615,15 +599,15 @@
         color: #8b8e92;
     
     }
-    
+/*     
     .form-control:focus~label {
         font-size: 12px;
         top: 3px;
         left: 5px;
-        /* margin-left: .5rem; */
-        /* color: #242526; */
+        
+    color: #242526; 
         font-weight: 600;
-    }
+    } */
     
     .btn-send {
         width: 32px;
@@ -794,7 +778,8 @@
     }
     
     
-    .form-floating {
+    
+    /* .form-floating {
         box-sizing: border-box;
         display: flex;
         align-items: center;
@@ -813,7 +798,7 @@
         cursor: pointer;
         transition: all 300ms ease-in;
     }
-    
+     */
     .input-message {
         border-radius: 20px !important;
         overflow-wrap: break-word !important;
@@ -844,16 +829,7 @@
     .input-message:focus {
         box-shadow: none !important;
     }
-    
-    
-    .form-control:focus~label {
-        font-size: 12px;
-        top: 3px;
-        left: 5px;
-        /* margin-left: .5rem; */
-        /* color: #242526; */
-        font-weight: 600;
-    }
+
     
     .btn-send {
         width: 32px;
@@ -954,4 +930,12 @@ input.form-control{
 
     background: var(--pseudo-element-bg);
     color:  var(--pseudo-element-text);
+}
+
+
+
+
+
+input.form-control:focus{
+    background: #3a3b3c;
 }

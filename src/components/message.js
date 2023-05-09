@@ -18,16 +18,16 @@ const  Message =() =>
                     </div>
                       <div className='form-body'>
                       <div class="form-floating">
-                            <input type="text" name="name" id="name" class="form-control" required=""/>
                             <label for="name">Name</label>
+                            <input type="text" name="name" id="name" class="form-control" required="" autoComplete="false"/>
                         </div>
                         <div class="form-floating">
-                            <input type="text" name="lastName" id="lastName"  class="form-control"/>
                             <label for="lastName">Last name</label>
+                            <input type="text" name="lastName" id="lastName"  class="form-control"/>
                         </div>
                         <div class="form-floating">
-                            <input type="email" name="email" id='email' max="11" required="" pattern="(.+)@(\w+).(\w+)" class="form-control"/>
                             <label for="email">E-mail</label>
+                            <input type="email" name="email" id='email' max="11" required="" pattern="(.+)@(\w+).(\w+)" class="form-control"/>
                         </div>
                         <div class="d-flex align-items-center"> 
                             <input type="text" name="text" max="11" required="" class="form-control input-message" placeholder="Aa"/>
