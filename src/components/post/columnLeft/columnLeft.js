@@ -16,7 +16,7 @@ const ColumnLeft = () =>{
                 Intro
             </h2>
             <p className='fs-6 text-light  pb-2'>
-            Gênio, Bilionário, Playboy, Filantropo, esse é o Tony Stark, eu sou só o carinha da t.i
+            Back-end developer
             </p>
         </div>
         {/* socil area */}
