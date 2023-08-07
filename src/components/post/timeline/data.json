@@ -8,7 +8,7 @@
       },
       {
         "date": "October - 2022",
-        "text": "Trivia - Multiplayer game in real-times:\nNode.js, express, sequelize, mySql e socket.io Front-end: Html, css, javaScript vanilla, Bootstrap, EJS e socket.io client Caso tenham interesse, o código stá disponível no meu repositório no gtihub: https://github.com/YrllanBrandao/trivia-game-multiplayer",
+        "text": "Trivia - Multiplayer game in real-times:\n Node.js, express, sequelize, mySql e socket.io Front-end: Html, css, javaScript vanilla, Bootstrap, EJS e socket.io client Caso tenham interesse, o código stá disponível no meu repositório no gtihub: https://github.com/YrllanBrandao/trivia-game-multiplayer",
         "src": "./video/trivia.mp4",
         "thumb": "./thumb/trivia.png"
       },
